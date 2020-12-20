@@ -47,6 +47,7 @@ export default class Blank extends React.Component {
         value={this.state.TextInput_11}
         onChangeText={nextValue => this.setState({ TextInput_11: nextValue })}
       />
+      <Button title="Ingresar" onPress={() => alert("Pressed!")} />
     </View>
   )
 }
@@ -57,5 +58,6 @@ const styles = StyleSheet.create({
   Text_5: {},
   TextInput_7: {},
   Text_9: {},
-  TextInput_11: {}
+  TextInput_11: {},
+  Button_13: {}
 })
